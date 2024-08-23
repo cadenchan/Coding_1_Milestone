@@ -1,3 +1,24 @@
-table {
-    
+h1 {
+    color:rgb(57, 1, 87);
+}
+#milestone1 {
+    background-color:rgb(56, 95, 95);
+}
+#milestone2 {
+    background-color:lightgreen;
+}
+#milestone3 {
+    background-color:rgb(170, 166, 166);
+}
+#milestone4 {
+    background-color:lightblue;
+}
+#milestone5 {
+    background-color:lightsalmon;
+}
+table, th, td {
+    border: 2px solid;
+} 
+.table-header {
+    background-color:rgb(182, 178, 113);
 }
