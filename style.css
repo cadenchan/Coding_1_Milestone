@@ -22,3 +22,31 @@ table, th, td {
 .table-header {
     background-color:rgb(182, 178, 113);
 }
+
+@keyframes change-font-color{
+    from {color: red;}
+    to {color: skyblue;}
+}
+header {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.milestone-header:hover {
+    animation: change-font-color 1s forwards;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    padding:2em;
+    font-size:15px;
+    background-color:lightgray;
+}
+main p {
+    text-align: center;
+}
